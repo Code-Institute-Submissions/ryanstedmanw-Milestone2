@@ -79,3 +79,17 @@ body {
     padding-top: 60vh;
     padding-left: 12.5vh;
 }
+/*---------------------------------------------------------Portfolio page------------------------------------------------*/
+
+.portfolio-hero-img {
+  width: auto;
+  height: 100vh;
+  background: url("../images/portfolio-hero-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
