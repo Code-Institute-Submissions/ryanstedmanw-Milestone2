@@ -19,16 +19,18 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
+    color: rgb( 84, 133, 182)!important;
     font-size: 20px;
     transition: 0.3s;
 }
 
 .navbar-light .navbar-brand{
-    color: white !important;
+    color: white !important; 
     transition: 0.3s;
 }
 
 .navbar-light .navbar-brand:hover{
+    color: rgb( 84, 133, 182)!important; 
     font-size: 25px;
     transition: 0.3s;
 }
@@ -67,5 +69,13 @@ body {
   text-align: center;
   font-size: 2rem;
   padding-top: 50vh;
-  padding-right: 50vw;
+  left: 5%;
+  position: fixed;
+}
+
+.hero-subHeading{
+    font-family: exo;
+    color: rgb( 84, 133, 182);
+    padding-top: 60vh;
+    padding-left: 12.5vh;
 }
