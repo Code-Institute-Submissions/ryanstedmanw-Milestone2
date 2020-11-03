@@ -1,4 +1,4 @@
 $(document).ready(function(){
-    $(button)
+    console.log("test")
     });
  
