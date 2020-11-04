@@ -73,16 +73,14 @@ html {
   font-family: exo;
   text-align: center;
   font-size: 2rem;
-  padding-top: 50vh;
-  left: 5%;
-  position: fixed;
+
 }
 
-.hero-subHeading {
+.hero-subtext {
   font-family: exo;
   color: #007bff !important;
-  padding-top: 60vh;
-  padding-left: 12.5vh;
+  font-size: 1.5rem;
+  text-align: center;
 }
 /*---------------------------------------------------------contact page------------------------------------------------*/
 
