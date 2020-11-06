@@ -1,207 +1,192 @@
 /*-----------------------------------------------FontImports and overflow mod-------------------------------------------*/
-
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
-html {
-  max-width: 100%;
-  overflow-x: hidden;
-  overflow-y: auto;
+ @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
+ html {
+     max-width: 100%;
+     overflow-x: hidden;
+     overflow-y: auto;
 }
-.txt-type > .txt {
-  border-right: 0.2rem solid #777;
+ .txt-type > .txt {
+     border-right: 0.2rem solid #777;
 }
 /*-----------------------------------------------Portfolio page-------------------------------------------*/
-
-.github {
-  color: white;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-align: center;
-  margin-top: 10vw;
-  font-family: exo;
-  letter-spacing: 1px;
-  width: 75vw;
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 25px;
-  border-radius: 25px;
+ .github {
+     color: white;
+     padding-left: 10px;
+     padding-right: 10px;
+     text-align: center;
+     margin-top: 10vw;
+     font-family: exo;
+     letter-spacing: 1px;
+     width: 75vw;
+     background-color: rgba(0, 0, 0, 0.4);
+     padding: 25px;
+     border-radius: 25px;
 }
-.table-info > th {
-  background-color: #007bff !important;
+ .table-info > th {
+     background-color: #007bff !important;
 }
-.thead {
-  color: white !important;
+ .thead {
+     color: white !important;
 }
-.table {
-  color: white !important;
+ .table {
+     color: white !important;
 }
 /*-----------------------------------------------about me page ----------------------------------------------------------*/
-
-.about-hero-img {
-    min-height: 100vh;
-  width: auto;
-  height: auto;
-  background: url("../images/about-hero-img.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
+ .about-hero-img {
+     min-height: 100vh;
+     width: auto;
+     height: 125vh;
+     background: url("../images/about-hero-img.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     background-attachment: fixed;
+     transition: all 0.5s ease-in-out;
+     -moz-transition: all 0.5s ease-in-out;
+     -webkit-transition: all 0.5s ease-in-out;
 }
-
-.AboutMeText {
-  color: white;
-  letter-spacing: 1px;
-  font-family: exo;
-  text-align: center;
-  padding: 25px;
+ .AboutMeText {
+     color: white;
+     letter-spacing: 1px;
+     font-family: exo;
+     text-align: center;
+     padding: 25px;
 }
-.CvButton {
-  position: sticky;
-  min-width: 15vw;
-  min-height: 7.5vh;
-  max-width: 150px;
-  max-height: 100px;
-  left: 42.5vw;
-  border-radius: 25px;
-  border-color: white;
-  color: black;
-  background-color: #007bff80 !important;
+ .CvButton {
+     position: sticky;
+     min-width: 15vw;
+     min-height: 7.5vh;
+     max-width: 150px;
+     max-height: 100px;
+     left: 42.5vw;
+     border-radius: 25px;
+     border-color: white;
+     color: black;
+     background-color: #007bff80 !important;
 }
-.AboutMeContain {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 25px;
-  margin-top: 15vh;
-  border-radius: 25px;
-  max-width: 75%;
-  margin: auto;
-  height:auto;
+ .AboutMeContain {
+     background-color: rgba(0, 0, 0, 0.5);
+     padding: 25px;
+     margin-top: 15vh;
+     margin-bottom: 15vh;
+     border-radius: 25px;
+     margin-left: auto;
+     margin-right: auto;
+     max-width: 75%;
+     height:auto;
 }
 /*------------------------------------------------------NavBar----------------------------------------------------------*/
-
-.navbar-light .navbar-nav .nav-link {
-  color: white !important;
-  transition: 0.3s;
+ .navbar-light .navbar-nav .nav-link {
+     color: white !important;
+     transition: 0.3s;
 }
-
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #007bff !important;
-  font-size: 20px;
-  transition: 0.3s;
+ .navbar-light .navbar-nav .nav-link:hover {
+     color: #007bff !important;
+     font-size: 20px;
+     transition: 0.3s;
 }
-
-.navbar-light .navbar-brand {
-  color: white !important;
-  transition: 0.3s;
+ .navbar-light .navbar-brand {
+     color: white !important;
+     transition: 0.3s;
 }
-
-.navbar-light .navbar-brand:hover {
-  color: #007bff !important;
-  font-size: 25px;
-  transition: 0.3s;
+ .navbar-light .navbar-brand:hover {
+     color: #007bff !important;
+     font-size: 25px;
+     transition: 0.3s;
 }
-
-.navbar-light .navbar-toggler {
-  border: none;
+ .navbar-light .navbar-toggler {
+     border: none;
 }
-
 /*------------------------------------------------------Index-----------------------------------------------------------*/
-
-.hero-img {
-  width: auto;
-  height: 100vh;
-  background: url("../images/hero-img.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
+ .hero-img {
+     width: auto;
+     height: 100vh;
+     background: url("../images/hero-img.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     background-attachment: fixed;
+     transition: all 0.5s ease-in-out;
+     -moz-transition: all 0.5s ease-in-out;
+     -webkit-transition: all 0.5s ease-in-out;
 }
-
-.overlay {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 2;
+ .overlay {
+     position: absolute;
+     width: auto;
+     height: auto;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: rgba(0, 0, 0, 0.5);
+     z-index: 2;
 }
-
-.hero-text {
-  color: rgb(248, 249, 250);
-  letter-spacing: 2px;
-  font-family: exo;
-  text-align: center;
-  font-size: 2rem;
+ .hero-text {
+     color: rgb(248, 249, 250);
+     letter-spacing: 2px;
+     font-family: exo;
+     text-align: center;
+     font-size: 2rem;
 }
-
-.hero-subtext {
-  font-family: exo;
-  color: #007bff !important;
-  font-size: 1.5rem;
-  text-align: center;
+ .hero-subtext {
+     font-family: exo;
+     color: #007bff !important;
+     font-size: 1.5rem;
+     text-align: center;
 }
 /*---------------------------------------------------------contact page------------------------------------------------*/
-
-.contact-hero-img {
-  width: auto;
-  height: 100vh;
-  background: url("../images/contact-hero-img.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
+ .contact-hero-img {
+     width: auto;
+     height: 100vh;
+     background: url("../images/contact-hero-img.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     background-attachment: fixed;
+     transition: all 0.5s ease-in-out;
+     -moz-transition: all 0.5s ease-in-out;
+     -webkit-transition: all 0.5s ease-in-out;
 }
-.form-container {
-  padding-top: 7.5vh;
-  max-height: 90%;
+ .form-container {
+     padding-top: 7.5vh;
+     max-height: 90%;
 }
-.contact-form {
-  border: 1px solid white;
-  background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 25px;
-  padding: 25px;
-  color: white;
-  font-family: roboto;
-  letter-spacing: 1.5px;
-  max-width: fit-content;
-  margin: auto;
- 
+ .contact-form {
+     border: 1px solid white;
+     background-color: rgba(0, 0, 0, 0.7);
+     border-radius: 25px;
+     padding: 25px;
+     color: white;
+     font-family: roboto;
+     letter-spacing: 1.5px;
+     max-width: fit-content;
+     margin: auto;
 }
-.form-input {
-  width: 100%;
-  border-radius: 25px;
-  border: 1px solid white;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  margin-bottom: 5px;
+ .form-input {
+     width: 100%;
+     border-radius: 25px;
+     border: 1px solid white;
+     color: white;
+     background-color: rgba(0, 0, 0, 0.5);
+     text-align: center;
+     margin-bottom: 5px;
 }
-
-.Portfoliohero-img {
-  width: auto;
-  height: 175vh;
-  background: url("../images/portfolio-hero-img.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
+ .Portfoliohero-img {
+     width: auto;
+     height: 175vh;
+     background: url("../images/portfolio-hero-img.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     background-attachment: fixed;
+     transition: all 0.5s ease-in-out;
+     -moz-transition: all 0.5s ease-in-out;
+     -webkit-transition: all 0.5s ease-in-out;
 }
 /*---------------------------------------------------------footer------------------------------------------------*/
-.footer{
-    background-color: rgba(0, 0, 0, 1);
-    color: white;
-    letter-spacing: 1px;
-    font-family: roboto;
+ .footer{
+     background-color: rgba(0, 0, 0, 1);
+     color: white;
+     letter-spacing: 1px;
+     font-family: roboto;
 }
