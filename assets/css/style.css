@@ -36,8 +36,9 @@ html {
 /*-----------------------------------------------about me page ----------------------------------------------------------*/
 
 .about-hero-img {
+    min-height: 100vh;
   width: auto;
-  height: 100vh;
+  height: auto;
   background: url("../images/about-hero-img.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -56,9 +57,11 @@ html {
   padding: 25px;
 }
 .CvButton {
-  position: fixed;
-  width: 15vw;
-  height: 7.5vh;
+  position: sticky;
+  min-width: 15vw;
+  min-height: 7.5vh;
+  max-width: 150px;
+  max-height: 100px;
   left: 42.5vw;
   border-radius: 25px;
   border-color: white;
@@ -68,10 +71,11 @@ html {
 .AboutMeContain {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 25px;
+  margin-top: 15vh;
   border-radius: 25px;
   max-width: 75%;
   margin: auto;
-  height:55vh;
+  height:auto;
 }
 /*------------------------------------------------------NavBar----------------------------------------------------------*/
 
@@ -170,7 +174,7 @@ html {
   letter-spacing: 1.5px;
   max-width: fit-content;
   margin: auto;
-  min-width: 75vh;
+ 
 }
 .form-input {
   width: 100%;
@@ -193,4 +197,11 @@ html {
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
+}
+/*---------------------------------------------------------footer------------------------------------------------*/
+.footer{
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    letter-spacing: 1px;
+    font-family: roboto;
 }
