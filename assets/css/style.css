@@ -9,25 +9,69 @@ html {
 .txt-type > .txt {
   border-right: 0.2rem solid #777;
 }
+/*-----------------------------------------------Portfolio page-------------------------------------------*/
 
 .github {
-    color: white;
-        padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-    margin-top: 10vw;
-    font-family: exo;
-    letter-spacing: 1px;
-    width: 75vw;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  margin-top: 10vw;
+  font-family: exo;
+  letter-spacing: 1px;
+  width: 75vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 25px;
+  border-radius: 25px;
 }
-.table-info>th{
-   background-color: #007bff !important;
+.table-info > th {
+  background-color: #007bff !important;
 }
-.thead{
-    color: white !important;
+.thead {
+  color: white !important;
 }
-.table{
-    color: white !important;
+.table {
+  color: white !important;
+}
+/*-----------------------------------------------about me page ----------------------------------------------------------*/
+
+.about-hero-img {
+  width: auto;
+  height: 100vh;
+  background: url("../images/about-hero-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+.AboutMeText {
+  color: white;
+  letter-spacing: 1px;
+  font-family: exo;
+  text-align: center;
+  padding: 25px;
+}
+.CvButton {
+  position: fixed;
+  width: 15vw;
+  height: 7.5vh;
+  left: 42.5vw;
+  border-radius: 25px;
+  border-color: white;
+  color: black;
+  background-color: #007bff80 !important;
+}
+.AboutMeContain {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 25px;
+  border-radius: 25px;
+  max-width: 75%;
+  margin: auto;
+  height:55vh;
 }
 /*------------------------------------------------------NavBar----------------------------------------------------------*/
 
@@ -53,10 +97,9 @@ html {
   transition: 0.3s;
 }
 
-.navbar-light .navbar-toggler{
-    border: none;
+.navbar-light .navbar-toggler {
+  border: none;
 }
-
 
 /*------------------------------------------------------Index-----------------------------------------------------------*/
 
@@ -91,7 +134,6 @@ html {
   font-family: exo;
   text-align: center;
   font-size: 2rem;
-
 }
 
 .hero-subtext {
@@ -114,34 +156,34 @@ html {
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
 }
-.form-container{
-padding-top: 7.5vh;
-max-height: 90%;
+.form-container {
+  padding-top: 7.5vh;
+  max-height: 90%;
 }
-.contact-form{
-    border: 1px solid white;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 25px;
-    padding: 25px;
-    color: white;
-    font-family: roboto;
-    letter-spacing: 1.5px;
-        max-width: fit-content;
-    margin: auto;
-    min-width: 75vh;
+.contact-form {
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 25px;
+  padding: 25px;
+  color: white;
+  font-family: roboto;
+  letter-spacing: 1.5px;
+  max-width: fit-content;
+  margin: auto;
+  min-width: 75vh;
 }
-.form-input{
-    width: 100%;
-    border-radius: 25px;
-    border: 1px solid white;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    margin-bottom: 5px;
+.form-input {
+  width: 100%;
+  border-radius: 25px;
+  border: 1px solid white;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-bottom: 5px;
 }
 
-.Portfoliohero-img{
-      width: auto;
+.Portfoliohero-img {
+  width: auto;
   height: 175vh;
   background: url("../images/portfolio-hero-img.jpg");
   background-repeat: no-repeat;
