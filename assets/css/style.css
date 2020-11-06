@@ -4,13 +4,31 @@
 html {
   max-width: 100%;
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 .txt-type > .txt {
   border-right: 0.2rem solid #777;
 }
 
-
+.github {
+    color: white;
+        padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin-top: 10vw;
+    font-family: exo;
+    letter-spacing: 1px;
+    width: 75vw;
+}
+.table-info>th{
+   background-color: #007bff !important;
+}
+.thead{
+    color: white !important;
+}
+.table{
+    color: white !important;
+}
 /*------------------------------------------------------NavBar----------------------------------------------------------*/
 
 .navbar-light .navbar-nav .nav-link {
@@ -124,7 +142,7 @@ max-height: 90%;
 
 .Portfoliohero-img{
       width: auto;
-  height: 100vh;
+  height: 175vh;
   background: url("../images/portfolio-hero-img.jpg");
   background-repeat: no-repeat;
   background-position: center;
