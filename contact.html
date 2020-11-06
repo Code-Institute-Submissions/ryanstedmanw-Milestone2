@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./assets/css/style.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	<title>Ryan Stedman</title>
-</head>
-<section>
-   <section>
+  <!----------------------------------------------Head links------------------------------------------------------------->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Ryan Stedman</title>
+  </head>
+  <section>
+    <section>
+      <!----------------------------------------------Bootstrap Navbar------------------------------------------------------------->
       <nav
         class="navbar fixed-top navbar-light navbar-expand-sm navbar-template bg-transparent navtext navbar-static-top"
       >
@@ -35,61 +39,85 @@
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
-            <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
-    </section> 
-</section>
-<body>
-        <!-----------------------------------------------------HeroImage and HeroText--------------------------------------------->
-    <section>
-        <div class="contact-hero-img">
-        <div class="overlay"><div class="row h-100">
-        <div class="col-sm-12 my-auto">
-        <div class="container-md form-container">
-        
-        <form class="contact-form">
-        <h1>Contact form</h1>
-        <div class="form-group">
-        <div>
-        <label for="Email-address">Email address:</label><br>
-        <input type="email" name="email" id="Email-entry" class="form-input">
-        </div>
-        <div>
-        <label for="first-name">First name:</label><br>
-        <input type="text" name="first-name" id="First-name" class="form-input">
-        </div>
-        <div>
-        <label for="second-name">Second name:</label><br>
-        <input type="text" name="Second-name" id="Second-name" class="form-input">
-        </div>
-        <div>
-        <label for="contact-number">Contact number:</label><br>
-        <input type="text" name="contact-number" id="contact-number" class="form-input">
-        </div>
-        <div>
-        <label for="comment">Comment:</label>
-        <textarea class="form-input" rows="5" id="comment" ></textarea>
-        </div>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-
+    </section>
   </section>
-
-  
-    
+  <body>
+    <!-----------------------------------------------------HeroImage and HeroText--------------------------------------------->
+    <section>
+      <div class="contact-hero-img">
+        <div class="overlay">
+          <div class="row h-100">
+            <div class="col-sm-12 my-auto">
+              <div class="container-md form-container">
+                <!----------------------------------------------Form Imput------------------------------------------------------------->
+                <form class="contact-form">
+                  <h1>Contact form</h1>
+                  <div class="form-group">
+                    <div>
+                      <label for="Email-address">Email address:</label><br />
+                      <input
+                        type="email"
+                        name="email"
+                        id="Email-entry"
+                        class="form-input"
+                      />
+                    </div>
+                    <div>
+                      <label for="first-name">First name:</label><br />
+                      <input
+                        type="text"
+                        name="first-name"
+                        id="First-name"
+                        class="form-input"
+                      />
+                    </div>
+                    <div>
+                      <label for="second-name">Second name:</label><br />
+                      <input
+                        type="text"
+                        name="Second-name"
+                        id="Second-name"
+                        class="form-input"
+                      />
+                    </div>
+                    <div>
+                      <label for="contact-number">Contact number:</label><br />
+                      <input
+                        type="text"
+                        name="contact-number"
+                        id="contact-number"
+                        class="form-input"
+                      />
+                    </div>
+                    <div>
+                      <label for="comment">Comment:</label>
+                      <textarea
+                        class="form-input"
+                        rows="5"
+                        id="comment"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
   <!----------------------------------------------Script CDN------------------------------------------------------------->
- 
 </html>

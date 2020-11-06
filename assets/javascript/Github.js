@@ -1,10 +1,10 @@
 $(document).ready(function(){
    var request = new XMLHttpRequest()
-   request.open('get', 'https://api.github.com/users/ryanstedmanw/repos' , true)
+   request.open('get', 'https://api.github.com/users/ryanstedmanw/repos' , true) /*--my link to repo*/
    request.onload = function(){
-       var data = JSON.parse(this.response);
-       var statusHTML = '';
-       $.each(data, function(i, status){
+       var data = JSON.parse(this.response); /*--Save returned data as parsed json data--*/
+       var statusHTML = ''; 
+       $.each(data, function(i, status){ /*-- display parse data in a table--*/
            statusHTML += '<tr>';
            statusHTML += '<td>' + status.id + '</td>'
            statusHTML += '<td>' + status.name + '</td>'
